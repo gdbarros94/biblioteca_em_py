@@ -6,7 +6,7 @@ class Livro:
         self.__disponivel = disponivel
 
     @property
-    def titulo(self):
+    def titulo(self): #essa função faz isso aqui
         return self.__titulo
 
     @property
